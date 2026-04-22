@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit Variable", sans-serif;
+
+  --color-biomed-blue-light: #00AEEF;
+  --color-biomed-blue-muted: #0072BC;
+  --color-biomed-blue-dark: #003366;
+  --color-biomed-sand: #F8FAFC;
+  --color-biomed-beige: #F1F5F9;
+  --color-whatsapp: #25D366;
+  --color-whatsapp-dark: #128C7E;
+}
+
+@layer base {
+  body {
+    @apply bg-biomed-sand text-slate-900 font-sans antialiased selection:bg-biomed-blue-light/30;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display text-biomed-blue-dark tracking-tight;
+  }
+}
+
+.glass-card {
+  @apply bg-white/70 backdrop-blur-xl border border-white/40 shadow-[0_8px_30px_rgb(0,0,0,0.04)];
+}
+
+.section-padding {
+  @apply py-20 px-6 max-w-7xl mx-auto;
+}
+
+@keyframes hero-col-left {
+  from {
+    opacity: 0;
+    transform: translateX(-2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes hero-col-right {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fab-whatsapp-in {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.hero-anim-left {
+  animation: hero-col-left 0.8s ease-out both;
+}
+
+.hero-anim-right {
+  animation: hero-col-right 1s 0.2s ease-out both;
+}
+
+.anim-fab-whatsapp {
+  animation: fab-whatsapp-in 0.4s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-anim-left,
+  .hero-anim-right,
+  .anim-fab-whatsapp {
+    animation: none;
+  }
+}
