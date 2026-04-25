@@ -26,7 +26,7 @@ export default function Hero() {
         <div className="hero-anim-left">
           <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-[1.1] tracking-tighter">
             Ciência que <br />
-            <span className="text-biomed-blue-light italic font-normal">regera o bem-estar.</span>
+            <span className="text-biomed-blue-light italic font-normal">regenera o bem-estar.</span>
           </h1>
           
           <p className="text-xl text-slate-600 mb-10 max-w-lg leading-relaxed font-medium">
