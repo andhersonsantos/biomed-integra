@@ -7,7 +7,7 @@ interface SEOProps {
 }
 
 export default function SEO({ 
-  title = "Biomed Integra | Práticas Integrativas em São José dos Campos", 
+  title = "Biomed Integra | Remissão do Diabetes Tipo 2 | Práticas Integrativas em São José dos Campos", 
   description = "Recupere sua qualidade de vida com controle da glicemia, combate à inflamação e redução de dores crônicas na Clínica Biomed Integra no Parque Industrial, SJC.",
   canonical = "https://clinicabiomedintegra.com.br"
 }: SEOProps) {
