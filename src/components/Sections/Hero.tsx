@@ -67,7 +67,7 @@ export default function Hero() {
                 fetchPriority="high"
                 decoding="async"
                 referrerPolicy="no-referrer"
-                transform="scaleX(-1)"
+                style="transform: scaleX(-1);"
               />
             </picture>
           </div>
