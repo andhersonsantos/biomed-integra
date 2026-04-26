@@ -9,11 +9,11 @@ const faqs = [
   },
   {
     question: "Os tratamentos estéticos são dolorosos?",
-    answer: "Nossos tratamentos como Detox Corporal e Esculpe Detox são minimamente invasivos e focados no conforto do paciente. Utilizamos tecnologias avançadas que garantem resultados eficazes com o máximo de acolhimento."
+    answer: "Nossos tratamentos como Detox Corporal e Esculpe Detox são focados no conforto do paciente. Utilizamos tecnologias avançadas que garantem resultados eficazes com o máximo de acolhimento."
   },
   {
     question: "Como funciona o mapeamento genético?",
-    answer: "É um processo simples de coleta de saliva ou sangue que analisa marcadores específicos do seu DNA. O resultado nos ajuda a personalizar sua dieta, treinos e prevenção de doenças com precisão cirúrgica."
+    answer: "É um processo simples de coleta de saliva que analisa marcadores específicos do seu DNA. O resultado nos ajuda a personalizar sua dieta, treinos e prevenção de doenças com precisão cirúrgica."
   },
   {
     question: "A clínica atende convênios?",
