@@ -59,8 +59,8 @@ export default function Hero() {
               <source srcSet="/hero-dra.webp" type="image/webp" />
               <img
                 src="https://clinicabiomedintegra.com.br/_assets/media/cbc608ab726f64d67941486a2755c1a6.png"
-                alt="Biomédica Chefe Dra Adriane Xavier."
-                className="w-full h-[650px] object-cover"
+                alt="Biomédica Chefe Dra Adriane Xavier"
+                className="w-full h-[650px] object-cover scale-x-[-1]"
                 width={1000}
                 height={1500}
                 loading="eager"
